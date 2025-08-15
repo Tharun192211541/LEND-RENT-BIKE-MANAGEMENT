@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/home_bg"
+            android:gravity="fill"
+            android:alpha="0.5"
+            android:tileMode="disabled"
+             /> <!-- 50% opacity -->
+    </item>
+</layer-list>

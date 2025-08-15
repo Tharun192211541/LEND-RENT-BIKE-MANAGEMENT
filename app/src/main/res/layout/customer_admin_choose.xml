@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/lr270171b17666666">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/rd3eveivdiie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="34dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginBottom="48dp"
+                    android:background="@drawable/cr20bffffff"
+                    android:orientation="vertical"
+                    android:paddingVertical="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/r9ie2drz1dhc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="17dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/r4d2t6t3lkae"
+                            android:layout_width="135dp"
+                            android:layout_height="135dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/lender_photo" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r6ap5gyecxid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rqyxr8u5mopj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vehicle Lender"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r8l4ms9xfda7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="34dp"
+                    android:background="@drawable/cr20b000000"
+                    android:orientation="vertical"
+                    android:paddingVertical="22dp">
+
+                    <LinearLayout
+                        android:id="@+id/r6l5sikylx2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="23dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/rnoifdgtxuwd"
+                            android:layout_width="223dp"
+                            android:layout_height="142dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/customer_photo" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rnwmoqloa1l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rr0quk1mdcc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Customer"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/rtlumzhdh3xe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingVertical="4dp">
+                    <TextView
+                        android:id="@+id/r6zj9plfs6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Already a user ?? Login here"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

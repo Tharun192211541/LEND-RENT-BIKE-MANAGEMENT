@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Add Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- No longer required for Android 10 and above -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication1"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true"> <!-- Allow HTTP URLs -->
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <!-- Login Activity -->
+
+        <activity android:name="com.example.myapplication1.LoginCredentials"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.shop_status"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.update_bikes"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.delete_customers"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.bot"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.filtered_bikes"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.receipt1"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.imageView"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.admin_user_details"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.OwnerCustomers"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.delete_bikes"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.CustomerRatings"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.CLenderFeedback"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.forgot_password"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.Customer_cart_previous"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.customer_feedback"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.receipt"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.AdminEdit"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+
+        <activity android:name="com.example.myapplication1.BookingData"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+
+
+        <activity android:name="com.example.myapplication1.Login"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.AddBike"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.DisplayBikesActivity"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.BikeDetails"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+
+
+        <activity android:name="com.example.myapplication1.CustomerAdminChoose"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+        <activity android:name="com.example.myapplication1.ImageActivity"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+
+        <activity android:name="com.example.myapplication1.AdminRegister"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"/>
+
+        <activity android:name="com.example.myapplication1.HomeCustomer"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"
+            tools:ignore="MissingClass" />
+        <activity android:name="com.example.myapplication1.ExploreResults"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"
+            tools:ignore="MissingClass" />
+
+        <activity android:name="com.example.myapplication1.CustomerEdit"
+            android:background="#000000"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication1"
+            tools:ignore="MissingClass" />
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

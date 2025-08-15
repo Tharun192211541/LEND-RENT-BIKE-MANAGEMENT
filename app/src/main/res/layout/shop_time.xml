@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/selectAllDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select all days"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Shop Timings"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <!-- Reusable layout for each day, with unique ids -->
+        <include layout="@layout/status_time" android:id="@+id/mondayPicker"/>
+        <include layout="@layout/status_time" android:id="@+id/tuesdayPicker"/>
+        <include layout="@layout/status_time" android:id="@+id/wednesdayPicker"/>
+        <include layout="@layout/status_time" android:id="@+id/thursdayPicker"/>
+        <include layout="@layout/status_time" android:id="@+id/fridayPicker"/>
+        <include layout="@layout/status_time" android:id="@+id/saturdayPicker"/>
+        <include layout="@layout/status_time" android:id="@+id/sundayPicker"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:id="@+id/save"
+            android:layout_gravity="center"
+            android:text="Save"
+            />
+    </LinearLayout>
+</ScrollView>

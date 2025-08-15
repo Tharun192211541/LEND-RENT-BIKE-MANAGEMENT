@@ -1,0 +1,219 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lr270171b17666666">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rut4gr2ldetg"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:layout_marginVertical="53dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Lender Registration"
+                />
+            <RelativeLayout
+                android:id="@+id/r0kwutz1r2aof"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="28dp"
+                android:layout_marginHorizontal="23dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/rjuu5w9eata"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr52baeb1b9"
+                        android:paddingTop="30dp"
+                        android:paddingBottom="30dp"
+                        android:layout_marginTop="-19dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/ri0nlaqe8zgb"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="17dp"
+                            android:layout_marginHorizontal="31dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="horizontal">
+                            <EditText
+                                android:inputType="text"
+                                android:hint="Full name"
+                                android:id="@+id/rtjqal6c8ut"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+
+                                android:background="@drawable/cr12be9e4e4c4"
+                                android:paddingVertical="16dp"
+                                android:paddingHorizontal="15dp"
+                                />
+                        </LinearLayout>
+                        <EditText
+                            android:inputType="text"
+                            android:hint="shop Name"
+                            android:id="@+id/r2qvaj6nteki"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="17dp"
+                            android:layout_marginHorizontal="31dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@drawable/cr12be9e4e4c4"
+                            android:paddingVertical="16dp"
+                            android:paddingHorizontal="15dp"
+                            />
+                        <LinearLayout
+                            android:id="@+id/rz8324qkk7xe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="17dp"
+                            android:layout_marginHorizontal="31dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:inputType="text"
+                                android:hint="Shop address"
+                                android:id="@+id/rlcq1i21qfsg"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/cr12be9e4e4c4"
+                                android:paddingVertical="16dp"
+                                android:layout_weight="0.5"
+                                android:paddingHorizontal="13dp"
+                                />
+                            <EditText
+                                android:inputType="text"
+                                android:hint="zip code"
+                                android:id="@+id/rtdwzw2ct8oe"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/cr12be9e4e4c4"
+                                android:paddingVertical="16dp"
+                                android:layout_weight="0.5"
+                                android:layout_marginLeft="15dp"
+                                android:paddingHorizontal="13dp"
+                                />
+                        </LinearLayout>
+                        <EditText
+                            android:inputType="text"
+                            android:hint="Mobile Number"
+                            android:id="@+id/rtrife9wh7wp"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="17dp"
+                            android:layout_marginHorizontal="31dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@drawable/cr12be9e4e4c4"
+                            android:paddingVertical="16dp"
+                            android:paddingHorizontal="18dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/rwdu8drsdxbs"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:layout_marginHorizontal="31dp"
+                            android:layout_marginBottom="17dp"
+                            android:background="@drawable/cr12be9e4e4c4"
+                            android:hint="Enter you mail id"
+                            android:inputType="text"
+                            android:paddingHorizontal="14dp"
+                            android:paddingVertical="15dp"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp" />
+                        <EditText
+                            android:inputType="text"
+                            android:hint="Create password"
+                            android:id="@+id/r4wdrblupbpm"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+                            android:layout_marginBottom="17dp"
+                            android:layout_marginHorizontal="31dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@drawable/cr12be9e4e4c4"
+                            android:paddingVertical="16dp"
+                            android:paddingHorizontal="15dp"
+                            />
+                        <EditText
+                            android:inputType="text"
+                            android:hint="Confirm your password"
+                            android:id="@+id/rxer9d2isf7s"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16sp"
+
+                            android:layout_marginHorizontal="31dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@drawable/cr12be9e4e4c4"
+                            android:paddingVertical="16dp"
+                            android:paddingHorizontal="15dp"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/ry0rdbf8isrn"
+                        android:layout_width="134dp"
+                        android:layout_height="48dp"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:background="#34C759"
+                        android:paddingVertical="10dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:layout_gravity="center">
+                        <TextView
+                            android:id="@+id/rxma7gn4vc3b"
+                            android:textColor="#000000"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Register Now"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+</LinearLayout>

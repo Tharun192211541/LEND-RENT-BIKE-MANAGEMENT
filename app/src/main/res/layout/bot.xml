@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <!-- Title Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell us what are your preferences"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"/>
+
+    <!-- Cost Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/cost_button"
+        android:text="Cost"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/gold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Comfort Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Comfort"
+        android:id="@+id/comfort_button"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Experience Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Experience"
+        android:background="@drawable/rounded_button"
+        android:id="@+id/experience_button"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Vehicle Condition Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Vehicle Condition"
+        android:id="@+id/vehicle_condition_button"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
